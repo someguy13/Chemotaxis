@@ -85,10 +85,10 @@ class Particle
  		textSize(14);
  		textAlign(CENTER,CENTER);
  		if(myCharge){
- 			text("+",myX+ mySize/20 ,myY - mySize/10);
+ 			text("+",myX,myY);
  		}
  		else{
- 			text("-",myX + mySize/20,myY - mySize/10);
+ 			text("-",myX,myY);
  		}
  	}
  	void move(){
